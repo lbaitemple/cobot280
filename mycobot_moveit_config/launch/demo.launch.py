@@ -37,13 +37,13 @@ def generate_launch_description():
     robot_description_semantic = {'robot_description_semantic': robot_description_semantic_content}
     
     # Kinematics config
-    kinematics_yaml = os.path.join(mycobot_moveit_config_share, 'config', 'kinematics.yaml')
+    kinematics_yaml = os.path.join(mycobot_moveit_config_share, 'config', 'kinematics_simple.yaml')
     
     # Joint limits config
     joint_limits_yaml = os.path.join(mycobot_moveit_config_share, 'config', 'joint_limits.yaml')
     
     # Planning parameters
-    ompl_planning_yaml = os.path.join(mycobot_moveit_config_share, 'config', 'ompl_planning.yaml')
+    ompl_planning_yaml = os.path.join(mycobot_moveit_config_share, 'config', 'ompl_planning_simple.yaml')
     
     # MoveIt controller config
     moveit_controllers_yaml = os.path.join(mycobot_moveit_config_share, 'config', 'moveit_controllers.yaml')
