@@ -36,7 +36,7 @@ sudo apt install -y \
 
 1. **Clone or navigate to the workspace:**
    ```bash
-   cd -p ~/cobot_ws/src
+   mkdir -p ~/cobot_ws/src
    ```
 
 2. **Install Python dependencies:**
